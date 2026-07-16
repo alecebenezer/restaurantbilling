@@ -197,11 +197,11 @@ function Menu() {
           <h3>Scan & Pay</h3>
 
           <QRCodeCanvas
-            value={`upi://pay?pa=alecebenezer@okicici&pn=Restaurant&am=${total}&cu=INR`}
+            value={`upi://pay?pa=9840281823@superyes&pn=Restaurant&am=${total}&cu=INR`}
             size={220}
           />
 
-          <p>UPI ID: alecebenezer@okicici</p>
+          <p>UPI ID: 9840281823@superyes</p>
           <p>Amount: ₹{total}</p>
         </div>
       )}

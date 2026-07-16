@@ -1,7 +1,7 @@
 import { QRCodeCanvas } from "qrcode.react";
 
 function QRCodeGenerator() {
-  const upiId = "alecebenezer@okicici";
+  const upiId = "9840281823@superyes";
 
   const upiLink =
     `upi://pay?pa=${upiId}&pn=Restaurant&cu=INR`;
