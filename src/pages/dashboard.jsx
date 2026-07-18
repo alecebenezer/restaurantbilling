@@ -14,7 +14,7 @@ function Dashboard() {
 
   const loadDashboard = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/orders");
+      const response = await axios.get("https://restaurantbilling-n6e1.onrender.com/api/orders");
 
       const orders = response.data;
 

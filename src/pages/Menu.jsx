@@ -108,7 +108,7 @@ function Menu() {
     }
 
     try {
-      await axios.post("http://localhost:5000/api/orders", {
+      await axios.post("https://restaurantbilling-n6e1.onrender.com/api/orders", {
         items: orders,
         total: total,
         paymentMethod: paymentMethod,
